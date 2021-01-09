@@ -5,7 +5,7 @@ from PIL import Image
 from resource.rua.data_source import generate_gif
 import requests
 
-data_dir = path.join(path.dirname(__file__), 'data')
+data_dir = './resource/rua/data'
 def ruaer(id):
     url = f'http://q1.qlogo.cn/g?b=qq&nk={id}&s=160'
     resp =  requests.get(url)
