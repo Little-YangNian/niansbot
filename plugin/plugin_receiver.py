@@ -15,8 +15,7 @@ async def rua(app: GraiaMiraiApplication,member:Member,message:MessageChain,grou
         
             print(b[0])
             c = str(b[0])
-            res = re.findall('target=.*?(.*?) display=',c)
-            print(int(res[0]))
-            url =  ruaer(int(res[0]))
+            at_user = re.findall('target=.*?(.*?) display=',c)
+            url =  ruaer(int(at_user[0]))
             print(url)
             await app.sendGroupMessage(group,MessageChain.create([Image.fromLocalFile(url)]))
