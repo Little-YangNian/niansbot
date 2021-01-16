@@ -1,5 +1,5 @@
 import yaml
-admin = [2544704967]
+admin = [2544704967,1627998372]
 def get_respons(msg):
     f  = open('./resource/talker.yml')
     yml = yaml.load(f,Loader=yaml.SafeLoader)
@@ -13,10 +13,14 @@ def add(msg):
     f.write(msg)
 def msger(msg,sender):
     if msg[:5] == 'add: ':
-        if sender in admin:
-            add(f'{msg[5:]}\n')
-            return 'Add Successful'
+        check = yaml.load(msg[5:],Loader=yaml.SafeLoader)
+        if type(check)  == dict: 
+            if sender in admin:
+                add(f'\n{msg[5:]}')
+                return 'Add Successful'
+            else:
+                return 'You Are Not Bot Admin'
         else:
-            return 'You Are Not Bot Admin'
+            return 'Please using right yaml'
     else:
         return get_respons(msg)
