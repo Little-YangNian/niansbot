@@ -1,5 +1,5 @@
-# nian_mirai_bot
-# rua插件resource/rua/data_source.py
+Power by [Mirai](https://github.com/mamoe/mirai)
 
-# 和resource/rua/data/.来自  
-# [shebot](https://github.com/pcrbot/plugins-for-Hoshino/tree/master/shebot/rua)
+some source code from:
+
+1. rua: [plugins-for-Hoshino](https://github.com/pcrbot/plugins-for-Hoshino)
