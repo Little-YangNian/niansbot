@@ -1,11 +1,9 @@
-import aiohttp
-import aiofiles
+import aiohttp ,aiofiles
 from miraibot import get
 from miraibot import GraiaMiraiApplication
 from miraibot.message import MessageChain, Image,  Group, Member, Plain
-import json
+import ujson as json
 import base64
-import os
 
 commands  =  ['ft','在吗']
 groups = [488467276]
@@ -13,7 +11,6 @@ groups = [488467276]
 host = "cn-xz-bgp.sakurafrp.com:23300"
 
 bcc = get.bcc()
-
 
 @bcc.receiver('GroupMessage')
 async def mc_tool(msg: MessageChain, group: Group, member: Member,app: GraiaMiraiApplication):

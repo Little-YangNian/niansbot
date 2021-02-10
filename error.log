@@ -384,3 +384,1063 @@ TypeError: 'NoneType' object is not iterable
     for i in res['players']['list']:
 TypeError: 'NoneType' object is not iterable
 
+[2021-02-09 23:09:00] ERROR : 导入失败: ↓ 
+Traceback (most recent call last):
+  File "/root/bots/niansbot2/miraibot/plugin.py", line 41, in load_plugin
+    module = importlib.import_module(module_name)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/root/bots/niansbot2/plugins/rua.py", line 5, in <module>
+    from .rua.data_source import generate_gif
+ModuleNotFoundError: No module named 'plugins.rua.data_source'; 'plugins.rua' is not a package
+
+[2021-02-09 23:09:48] ERROR : 导入失败: ↓ 
+Traceback (most recent call last):
+  File "/root/bots/niansbot2/miraibot/plugin.py", line 41, in load_plugin
+    module = importlib.import_module(module_name)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/root/bots/niansbot2/plugins/rua.py", line 5, in <module>
+    from plugins.rua.data_source import generate_gif
+ModuleNotFoundError: No module named 'plugins.rua.data_source'; 'plugins.rua' is not a package
+
+[2021-02-09 23:10:15] ERROR : 导入失败: ↓ 
+Traceback (most recent call last):
+  File "/root/bots/niansbot2/miraibot/plugin.py", line 41, in load_plugin
+    module = importlib.import_module(module_name)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/root/bots/niansbot2/plugins/rua.py", line 5, in <module>
+    from .plugins.rua.data_source import generate_gif
+ModuleNotFoundError: No module named 'plugins.plugins'
+
+[2021-02-09 23:12:17] ERROR : 导入失败: ↓ 
+Traceback (most recent call last):
+  File "/root/bots/niansbot2/miraibot/plugin.py", line 41, in load_plugin
+    module = importlib.import_module(module_name)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/root/bots/niansbot2/plugins/rua.py", line 5, in <module>
+    from .plugins.rua_data.data_source import generate_gif
+ModuleNotFoundError: No module named 'plugins.plugins'
+
+[2021-02-09 23:18:53] ERROR : 导入失败: ↓ 
+Traceback (most recent call last):
+  File "/root/bots/niansbot2/miraibot/plugin.py", line 41, in load_plugin
+    module = importlib.import_module(module_name)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 779, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 916, in get_code
+  File "<frozen importlib._bootstrap_external>", line 846, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/root/bots/niansbot2/plugins/rua.py", line 15
+    await resp_cont =  resp.read()
+    ^
+SyntaxError: cannot assign to await expression
+
+[2021-02-09 23:22:55] ERROR : 导入失败: ↓ 
+Traceback (most recent call last):
+  File "/root/bots/niansbot2/miraibot/plugin.py", line 41, in load_plugin
+    module = importlib.import_module(module_name)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 779, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 916, in get_code
+  File "<frozen importlib._bootstrap_external>", line 846, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/root/bots/niansbot2/plugins/rua.py", line 15
+    await resp_cont =  resp.content
+    ^
+SyntaxError: cannot assign to await expression
+
+[2021-02-09 23:24:13] ERROR : 导入失败: ↓ 
+Traceback (most recent call last):
+  File "/root/bots/niansbot2/miraibot/plugin.py", line 41, in load_plugin
+    module = importlib.import_module(module_name)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 779, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 916, in get_code
+  File "<frozen importlib._bootstrap_external>", line 846, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/root/bots/niansbot2/plugins/rua.py", line 15
+    await resp_cont =  resp.content
+    ^
+SyntaxError: cannot assign to await expression
+
+[2021-02-10 07:40:10] ERROR : 导入失败: ↓ 
+Traceback (most recent call last):
+  File "/root/bots/niansbot2/miraibot/plugin.py", line 41, in load_plugin
+    module = importlib.import_module(module_name)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 779, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 916, in get_code
+  File "<frozen importlib._bootstrap_external>", line 846, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/root/bots/niansbot2/plugins/rua.py", line 35
+    v   awaitbva
+    ^
+IndentationError: expected an indented block
+
+[2021-02-10 07:42:57] ERROR : Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/graia/broadcast/__init__.py", line 326, in Executor
+    result = await run_always_await_safely(
+  File "/usr/local/lib/python3.8/dist-packages/graia/broadcast/utilles.py", line 20, in run_always_await_safely
+    return await callable(*args, **kwargs)
+  File "/root/bots/niansbot2/plugins/rua.py", line 27, in rua
+    await ruaer(qid)
+  File "/root/bots/niansbot2/plugins/rua.py", line 16, in ruaer
+    avatar = Image.open(BytesIO(resp_cont))
+AttributeError: type object 'Image' has no attribute 'open'
+
+[2021-02-10 07:44:10] ERROR : Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/graia/broadcast/__init__.py", line 326, in Executor
+    result = await run_always_await_safely(
+  File "/usr/local/lib/python3.8/dist-packages/graia/broadcast/utilles.py", line 20, in run_always_await_safely
+    return await callable(*args, **kwargs)
+  File "/root/bots/niansbot2/plugins/rua.py", line 27, in rua
+    await ruaer(qid)
+  File "/root/bots/niansbot2/plugins/rua.py", line 16, in ruaer
+    avatar = im.open(BytesIO(resp_cont))
+TypeError: a bytes-like object is required, not 'StreamReader'
+
+[2021-02-10 07:46:06] ERROR : Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/graia/broadcast/__init__.py", line 326, in Executor
+    result = await run_always_await_safely(
+  File "/usr/local/lib/python3.8/dist-packages/graia/broadcast/utilles.py", line 20, in run_always_await_safely
+    return await callable(*args, **kwargs)
+  File "/root/bots/niansbot2/plugins/rua.py", line 27, in rua
+    await ruaer(qid)
+  File "/root/bots/niansbot2/plugins/rua.py", line 15, in ruaer
+    resp_cont =  resp.content()
+TypeError: 'StreamReader' object is not callable
+
+[2021-02-10 07:46:51] ERROR : Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/graia/broadcast/__init__.py", line 326, in Executor
+    result = await run_always_await_safely(
+  File "/usr/local/lib/python3.8/dist-packages/graia/broadcast/utilles.py", line 20, in run_always_await_safely
+    return await callable(*args, **kwargs)
+  File "/root/bots/niansbot2/plugins/rua.py", line 27, in rua
+    await ruaer(qid)
+  File "/root/bots/niansbot2/plugins/rua.py", line 16, in ruaer
+    avatar = im.open(BytesIO(resp_cont))
+TypeError: a bytes-like object is required, not 'coroutine'
+
+[2021-02-10 07:51:37] ERROR : 导入失败: ↓ 
+Traceback (most recent call last):
+  File "/root/bots/niansbot2/miraibot/plugin.py", line 41, in load_plugin
+    module = importlib.import_module(module_name)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 779, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 916, in get_code
+  File "<frozen importlib._bootstrap_external>", line 846, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/root/bots/niansbot2/plugins/rua.py", line 14
+    await resp_cont =  resp.read
+    ^
+SyntaxError: cannot assign to await expression
+
+[2021-02-10 07:55:09] ERROR : Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/graia/broadcast/__init__.py", line 326, in Executor
+    result = await run_always_await_safely(
+  File "/usr/local/lib/python3.8/dist-packages/graia/broadcast/utilles.py", line 20, in run_always_await_safely
+    return await callable(*args, **kwargs)
+  File "/root/bots/niansbot2/plugins/rua.py", line 28, in rua
+    MessageChain.create(
+  File "/usr/local/lib/python3.8/dist-packages/graia/application/message/chain.py", line 114, in create
+    return cls(__root__=elements)
+  File "pydantic/main.py", line 362, in pydantic.main.BaseModel.__init__
+pydantic.error_wrappers.ValidationError: 1 validation error for MessageChain
+__root__
+  value is not a valid sequence (type=type_error.sequence)
+
+[2021-02-10 07:55:38] ERROR : Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/graia/broadcast/__init__.py", line 326, in Executor
+    result = await run_always_await_safely(
+  File "/usr/local/lib/python3.8/dist-packages/graia/broadcast/utilles.py", line 20, in run_always_await_safely
+    return await callable(*args, **kwargs)
+  File "/root/bots/niansbot2/plugins/rua.py", line 28, in rua
+    MessageChain.create(
+  File "/usr/local/lib/python3.8/dist-packages/graia/application/message/chain.py", line 114, in create
+    return cls(__root__=elements)
+  File "pydantic/main.py", line 362, in pydantic.main.BaseModel.__init__
+pydantic.error_wrappers.ValidationError: 1 validation error for MessageChain
+__root__
+  value is not a valid sequence (type=type_error.sequence)
+
+[2021-02-10 07:57:31] ERROR : 导入失败: ↓ 
+Traceback (most recent call last):
+  File "/root/bots/niansbot2/miraibot/plugin.py", line 41, in load_plugin
+    module = importlib.import_module(module_name)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 779, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 916, in get_code
+  File "<frozen importlib._bootstrap_external>", line 846, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/root/bots/niansbot2/plugins/rua.py", line 16
+    global output = generate_gif(data_dir, avatar)
+                  ^
+SyntaxError: invalid syntax
+
+[2021-02-10 07:58:13] ERROR : 导入失败: ↓ 
+Traceback (most recent call last):
+  File "/root/bots/niansbot2/miraibot/plugin.py", line 41, in load_plugin
+    module = importlib.import_module(module_name)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 779, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 916, in get_code
+  File "<frozen importlib._bootstrap_external>", line 846, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/root/bots/niansbot2/plugins/rua.py", line 17
+    global output
+    ^
+SyntaxError: name 'output' is assigned to before global declaration
+
+[2021-02-10 07:58:49] ERROR : 导入失败: ↓ 
+Traceback (most recent call last):
+  File "/root/bots/niansbot2/miraibot/plugin.py", line 41, in load_plugin
+    module = importlib.import_module(module_name)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 779, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 916, in get_code
+  File "<frozen importlib._bootstrap_external>", line 846, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/root/bots/niansbot2/plugins/rua.py", line 18
+    global output
+    ^
+SyntaxError: name 'output' is assigned to before global declaration
+
+[2021-02-10 08:00:22] ERROR : Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/graia/broadcast/__init__.py", line 326, in Executor
+    result = await run_always_await_safely(
+  File "/usr/local/lib/python3.8/dist-packages/graia/broadcast/utilles.py", line 20, in run_always_await_safely
+    return await callable(*args, **kwargs)
+  File "/root/bots/niansbot2/plugins/rua.py", line 29, in rua
+    MessageChain.create(
+  File "/usr/local/lib/python3.8/dist-packages/graia/application/message/chain.py", line 114, in create
+    return cls(__root__=elements)
+  File "pydantic/main.py", line 362, in pydantic.main.BaseModel.__init__
+pydantic.error_wrappers.ValidationError: 1 validation error for MessageChain
+__root__
+  value is not a valid sequence (type=type_error.sequence)
+
+[2021-02-10 08:02:16] ERROR : Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/graia/broadcast/__init__.py", line 326, in Executor
+    result = await run_always_await_safely(
+  File "/usr/local/lib/python3.8/dist-packages/graia/broadcast/utilles.py", line 20, in run_always_await_safely
+    return await callable(*args, **kwargs)
+  File "/root/bots/niansbot2/plugins/rua.py", line 29, in rua
+    MessageChain.create(
+  File "/usr/local/lib/python3.8/dist-packages/graia/application/message/chain.py", line 114, in create
+    return cls(__root__=elements)
+  File "pydantic/main.py", line 362, in pydantic.main.BaseModel.__init__
+pydantic.error_wrappers.ValidationError: 1 validation error for MessageChain
+__root__
+  value is not a valid sequence (type=type_error.sequence)
+
+[2021-02-10 08:05:09] ERROR : Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/graia/broadcast/__init__.py", line 326, in Executor
+    result = await run_always_await_safely(
+  File "/usr/local/lib/python3.8/dist-packages/graia/broadcast/utilles.py", line 20, in run_always_await_safely
+    return await callable(*args, **kwargs)
+  File "/root/bots/niansbot2/plugins/rua.py", line 30, in rua
+    MessageChain.create(
+  File "/usr/local/lib/python3.8/dist-packages/graia/application/message/chain.py", line 114, in create
+    return cls(__root__=elements)
+  File "pydantic/main.py", line 362, in pydantic.main.BaseModel.__init__
+pydantic.error_wrappers.ValidationError: 1 validation error for MessageChain
+__root__
+  value is not a valid sequence (type=type_error.sequence)
+
+[2021-02-10 08:06:20] ERROR : Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/graia/broadcast/__init__.py", line 326, in Executor
+    result = await run_always_await_safely(
+  File "/usr/local/lib/python3.8/dist-packages/graia/broadcast/utilles.py", line 20, in run_always_await_safely
+    return await callable(*args, **kwargs)
+  File "/root/bots/niansbot2/plugins/rua.py", line 31, in rua
+    MessageChain.create(
+  File "/usr/local/lib/python3.8/dist-packages/graia/application/message/chain.py", line 114, in create
+    return cls(__root__=elements)
+  File "pydantic/main.py", line 362, in pydantic.main.BaseModel.__init__
+pydantic.error_wrappers.ValidationError: 1 validation error for MessageChain
+__root__
+  value is not a valid sequence (type=type_error.sequence)
+
+[2021-02-10 08:07:44] ERROR : Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/graia/broadcast/__init__.py", line 326, in Executor
+    result = await run_always_await_safely(
+  File "/usr/local/lib/python3.8/dist-packages/graia/broadcast/utilles.py", line 20, in run_always_await_safely
+    return await callable(*args, **kwargs)
+  File "/root/bots/niansbot2/plugins/rua.py", line 31, in rua
+    MessageChain.create(
+  File "/usr/local/lib/python3.8/dist-packages/graia/application/message/chain.py", line 114, in create
+    return cls(__root__=elements)
+  File "pydantic/main.py", line 362, in pydantic.main.BaseModel.__init__
+pydantic.error_wrappers.ValidationError: 1 validation error for MessageChain
+__root__
+  value is not a valid sequence (type=type_error.sequence)
+
+[2021-02-10 08:11:05] ERROR : 导入失败: ↓ 
+Traceback (most recent call last):
+  File "/root/bots/niansbot2/miraibot/plugin.py", line 41, in load_plugin
+    module = importlib.import_module(module_name)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/root/bots/niansbot2/plugins/rua.py", line 11, in <module>
+    data_dir = os.get_exec_path() + "rua_data/data"
+TypeError: can only concatenate list (not "str") to list
+
+[2021-02-10 08:12:56] ERROR : Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/graia/broadcast/__init__.py", line 326, in Executor
+    result = await run_always_await_safely(
+  File "/usr/local/lib/python3.8/dist-packages/graia/broadcast/utilles.py", line 20, in run_always_await_safely
+    return await callable(*args, **kwargs)
+  File "/root/bots/niansbot2/plugins/rua.py", line 28, in rua
+    url = await ruaer(qid)
+  File "/root/bots/niansbot2/plugins/rua.py", line 17, in ruaer
+    output = generate_gif(data_dir, avatar)
+NameError: name 'data_dir' is not defined
+
+[2021-02-10 08:13:31] ERROR : Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/graia/broadcast/__init__.py", line 326, in Executor
+    result = await run_always_await_safely(
+  File "/usr/local/lib/python3.8/dist-packages/graia/broadcast/utilles.py", line 20, in run_always_await_safely
+    return await callable(*args, **kwargs)
+  File "/root/bots/niansbot2/plugins/rua.py", line 32, in rua
+    MessageChain.create(
+  File "/usr/local/lib/python3.8/dist-packages/graia/application/message/chain.py", line 114, in create
+    return cls(__root__=elements)
+  File "pydantic/main.py", line 362, in pydantic.main.BaseModel.__init__
+pydantic.error_wrappers.ValidationError: 1 validation error for MessageChain
+__root__
+  value is not a valid sequence (type=type_error.sequence)
+
+[2021-02-10 09:15:27] ERROR : 导入失败: ↓ 
+Traceback (most recent call last):
+  File "/root/bots/niansbot2/miraibot/plugin.py", line 41, in load_plugin
+    module = importlib.import_module(module_name)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 779, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 916, in get_code
+  File "<frozen importlib._bootstrap_external>", line 846, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/root/bots/niansbot2/plugins/McTool.py", line 1
+    import aiohttp aiofiles
+                   ^
+SyntaxError: invalid syntax
+
+[2021-02-10 09:15:37] ERROR : 导入失败: ↓ 
+Traceback (most recent call last):
+  File "/root/bots/niansbot2/miraibot/plugin.py", line 41, in load_plugin
+    module = importlib.import_module(module_name)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 779, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 916, in get_code
+  File "<frozen importlib._bootstrap_external>", line 846, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/root/bots/niansbot2/plugins/McTool.py", line 1
+    import aiohttp aiofiles
+                   ^
+SyntaxError: invalid syntax
+
+[2021-02-10 09:16:08] ERROR : Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/graia/broadcast/__init__.py", line 326, in Executor
+    result = await run_always_await_safely(
+  File "/usr/local/lib/python3.8/dist-packages/graia/broadcast/utilles.py", line 20, in run_always_await_safely
+    return await callable(*args, **kwargs)
+  File "/root/bots/niansbot2/plugins/McTool.py", line 20, in mc_tool
+    res = json.loads(respon)
+NameError: name 'json' is not defined
+
+[2021-02-10 09:17:12] ERROR : Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/graia/broadcast/__init__.py", line 326, in Executor
+    result = await run_always_await_safely(
+  File "/usr/local/lib/python3.8/dist-packages/graia/broadcast/utilles.py", line 20, in run_always_await_safely
+    return await callable(*args, **kwargs)
+  File "/root/bots/niansbot2/plugins/McTool.py", line 23, in mc_tool
+    favicon = base64.b64decode((code.replace(r"data:image/png;base64,","")))
+NameError: name 'base64' is not defined
+
+[2021-02-10 09:17:53] ERROR : Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/graia/broadcast/__init__.py", line 326, in Executor
+    result = await run_always_await_safely(
+  File "/usr/local/lib/python3.8/dist-packages/graia/broadcast/utilles.py", line 20, in run_always_await_safely
+    return await callable(*args, **kwargs)
+  File "/root/bots/niansbot2/plugins/McTool.py", line 26, in mc_tool
+    for i in res['players']['list']:
+TypeError: 'NoneType' object is not iterable
+
+[2021-02-10 09:43:51] ERROR : 导入失败: ↓ 
+Traceback (most recent call last):
+  File "/root/bots/niansbot2/miraibot/plugin.py", line 41, in load_plugin
+    module = importlib.import_module(module_name)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 779, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 916, in get_code
+  File "<frozen importlib._bootstrap_external>", line 846, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/root/bots/niansbot2/plugins/cli.py", line 25
+    os.system(f"python3 cli.py {ctx.asDisplay()[5:]")
+              ^
+SyntaxError: f-string: expecting '}'
+
+[2021-02-10 09:48:50] ERROR : 导入失败: ↓ 
+Traceback (most recent call last):
+  File "/root/bots/niansbot2/miraibot/plugin.py", line 41, in load_plugin
+    module = importlib.import_module(module_name)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/root/bots/niansbot2/plugins/cli.py", line 4, in <module>
+    from .miraibot import get
+ModuleNotFoundError: No module named 'plugins.miraibot'
+
+[2021-02-10 09:57:01] ERROR : Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/graia/broadcast/__init__.py", line 326, in Executor
+    result = await run_always_await_safely(
+  File "/usr/local/lib/python3.8/dist-packages/graia/broadcast/utilles.py", line 20, in run_always_await_safely
+    return await callable(*args, **kwargs)
+  File "/root/bots/niansbot2/plugins/cli.py", line 10, in cli
+    res = subprocess.check_output(f"python3 plugins/CLI.py {ctx.asDisplay()[5:]}").decode("utf-8")
+  File "/usr/lib/python3.8/subprocess.py", line 411, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+  File "/usr/lib/python3.8/subprocess.py", line 489, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/lib/python3.8/subprocess.py", line 854, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/lib/python3.8/subprocess.py", line 1702, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'python3 plugins/CLI.py --qwq'
+
+[2021-02-10 09:58:41] ERROR : Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/graia/broadcast/__init__.py", line 326, in Executor
+    result = await run_always_await_safely(
+  File "/usr/local/lib/python3.8/dist-packages/graia/broadcast/utilles.py", line 20, in run_always_await_safely
+    return await callable(*args, **kwargs)
+  File "/root/bots/niansbot2/plugins/cli.py", line 11, in cli
+    await app.sendGroupMessage(group,
+  File "/usr/local/lib/python3.8/dist-packages/graia/application/__init__.py", line 67, in wrapped_network_action_callable
+    return await network_action_callable(self, *args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/graia/application/utilles.py", line 28, in wrapper
+    return await func(self, *args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/graia/application/__init__.py", line 647, in sendGroupMessage
+    response.raise_for_status()
+  File "/usr/local/lib/python3.8/dist-packages/aiohttp/client_reqrep.py", line 1000, in raise_for_status
+    raise ClientResponseError(
+aiohttp.client_exceptions.ClientResponseError: 500, message='Internal Server Error', url=URL('http://localhost:8080/sendGroupMessage')
+
+[2021-02-10 09:59:21] ERROR : Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/graia/broadcast/__init__.py", line 326, in Executor
+    result = await run_always_await_safely(
+  File "/usr/local/lib/python3.8/dist-packages/graia/broadcast/utilles.py", line 20, in run_always_await_safely
+    return await callable(*args, **kwargs)
+  File "/root/bots/niansbot2/plugins/cli.py", line 11, in cli
+    await app.sendGroupMessage(group,
+  File "/usr/local/lib/python3.8/dist-packages/graia/application/__init__.py", line 67, in wrapped_network_action_callable
+    return await network_action_callable(self, *args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/graia/application/utilles.py", line 28, in wrapper
+    return await func(self, *args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/graia/application/__init__.py", line 647, in sendGroupMessage
+    response.raise_for_status()
+  File "/usr/local/lib/python3.8/dist-packages/aiohttp/client_reqrep.py", line 1000, in raise_for_status
+    raise ClientResponseError(
+aiohttp.client_exceptions.ClientResponseError: 500, message='Internal Server Error', url=URL('http://localhost:8080/sendGroupMessage')
+
+[2021-02-10 10:01:10] ERROR : Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/graia/broadcast/__init__.py", line 326, in Executor
+    result = await run_always_await_safely(
+  File "/usr/local/lib/python3.8/dist-packages/graia/broadcast/utilles.py", line 20, in run_always_await_safely
+    return await callable(*args, **kwargs)
+  File "/root/bots/niansbot2/plugins/cli.py", line 12, in cli
+    await app.sendGroupMessage(group,
+  File "/usr/local/lib/python3.8/dist-packages/graia/application/__init__.py", line 67, in wrapped_network_action_callable
+    return await network_action_callable(self, *args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/graia/application/utilles.py", line 28, in wrapper
+    return await func(self, *args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/graia/application/__init__.py", line 647, in sendGroupMessage
+    response.raise_for_status()
+  File "/usr/local/lib/python3.8/dist-packages/aiohttp/client_reqrep.py", line 1000, in raise_for_status
+    raise ClientResponseError(
+aiohttp.client_exceptions.ClientResponseError: 500, message='Internal Server Error', url=URL('http://localhost:8080/sendGroupMessage')
+
+[2021-02-10 10:13:46] ERROR : Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/graia/broadcast/__init__.py", line 326, in Executor
+    result = await run_always_await_safely(
+  File "/usr/local/lib/python3.8/dist-packages/graia/broadcast/utilles.py", line 20, in run_always_await_safely
+    return await callable(*args, **kwargs)
+  File "/root/bots/niansbot2/plugins/cli.py", line 10, in cli
+    res = subprocess.check_output(f"python3 plugins/CLI.py {ctx.asDisplay()[5:]}",shell=True).decode("utf-8")
+  File "/usr/lib/python3.8/subprocess.py", line 411, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+  File "/usr/lib/python3.8/subprocess.py", line 512, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command 'python3 plugins/CLI.py hshshs' returned non-zero exit status 2.
+
+[2021-02-10 10:26:42] ERROR : Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/graia/broadcast/__init__.py", line 326, in Executor
+    result = await run_always_await_safely(
+  File "/usr/local/lib/python3.8/dist-packages/graia/broadcast/utilles.py", line 20, in run_always_await_safely
+    return await callable(*args, **kwargs)
+  File "/root/bots/niansbot2/plugins/cli.py", line 22, in cli
+    await app.sendGroupMessage(
+  File "/usr/local/lib/python3.8/dist-packages/graia/application/__init__.py", line 67, in wrapped_network_action_callable
+    return await network_action_callable(self, *args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/graia/application/utilles.py", line 28, in wrapper
+    return await func(self, *args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/graia/application/__init__.py", line 633, in sendGroupMessage
+    message_result = await message.build()
+AttributeError: 'list' object has no attribute 'build'
+
+[2021-02-10 10:26:51] ERROR : Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/graia/broadcast/__init__.py", line 326, in Executor
+    result = await run_always_await_safely(
+  File "/usr/local/lib/python3.8/dist-packages/graia/broadcast/utilles.py", line 20, in run_always_await_safely
+    return await callable(*args, **kwargs)
+  File "/root/bots/niansbot2/plugins/cli.py", line 22, in cli
+    await app.sendGroupMessage(
+  File "/usr/local/lib/python3.8/dist-packages/graia/application/__init__.py", line 67, in wrapped_network_action_callable
+    return await network_action_callable(self, *args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/graia/application/utilles.py", line 28, in wrapper
+    return await func(self, *args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/graia/application/__init__.py", line 633, in sendGroupMessage
+    message_result = await message.build()
+AttributeError: 'list' object has no attribute 'build'
+
+[2021-02-10 10:28:55] ERROR : Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/graia/broadcast/__init__.py", line 326, in Executor
+    result = await run_always_await_safely(
+  File "/usr/local/lib/python3.8/dist-packages/graia/broadcast/utilles.py", line 20, in run_always_await_safely
+    return await callable(*args, **kwargs)
+  File "/root/bots/niansbot2/plugins/cli.py", line 21, in cli
+    res = subprocess.check_output(ctx.asDisplay()[3:],shell=True)
+  File "/usr/lib/python3.8/subprocess.py", line 411, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+  File "/usr/lib/python3.8/subprocess.py", line 512, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command 'qwq' returned non-zero exit status 127.
+
+[2021-02-10 10:29:52] ERROR : Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/graia/broadcast/__init__.py", line 326, in Executor
+    result = await run_always_await_safely(
+  File "/usr/local/lib/python3.8/dist-packages/graia/broadcast/utilles.py", line 20, in run_always_await_safely
+    return await callable(*args, **kwargs)
+  File "/root/bots/niansbot2/plugins/cli.py", line 21, in cli
+    res = subprocess.check_output(ctx.asDisplay()[3:],shell=True)
+  File "/usr/lib/python3.8/subprocess.py", line 411, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+  File "/usr/lib/python3.8/subprocess.py", line 512, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command 'apt' returned non-zero exit status 1.
+
+[2021-02-10 10:30:29] ERROR : Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/graia/broadcast/__init__.py", line 326, in Executor
+    result = await run_always_await_safely(
+  File "/usr/local/lib/python3.8/dist-packages/graia/broadcast/utilles.py", line 20, in run_always_await_safely
+    return await callable(*args, **kwargs)
+  File "/root/bots/niansbot2/plugins/cli.py", line 21, in cli
+    res = subprocess.check_output(ctx.asDisplay()[3:],shell=True)
+  File "/usr/lib/python3.8/subprocess.py", line 411, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+  File "/usr/lib/python3.8/subprocess.py", line 512, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command 'wget http://yangnian.top' returned non-zero exit status 5.
+
+[2021-02-10 10:31:04] ERROR : Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/graia/broadcast/__init__.py", line 326, in Executor
+    result = await run_always_await_safely(
+  File "/usr/local/lib/python3.8/dist-packages/graia/broadcast/utilles.py", line 20, in run_always_await_safely
+    return await callable(*args, **kwargs)
+  File "/root/bots/niansbot2/plugins/cli.py", line 21, in cli
+    res = subprocess.check_output(ctx.asDisplay()[3:],shell=True)
+  File "/usr/lib/python3.8/subprocess.py", line 411, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+  File "/usr/lib/python3.8/subprocess.py", line 512, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command 'la' returned non-zero exit status 127.
+
+[2021-02-10 10:31:26] ERROR : Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/graia/broadcast/__init__.py", line 326, in Executor
+    result = await run_always_await_safely(
+  File "/usr/local/lib/python3.8/dist-packages/graia/broadcast/utilles.py", line 20, in run_always_await_safely
+    return await callable(*args, **kwargs)
+  File "/root/bots/niansbot2/plugins/cli.py", line 22, in cli
+    await app.sendGroupMessage(
+  File "/usr/local/lib/python3.8/dist-packages/graia/application/__init__.py", line 67, in wrapped_network_action_callable
+    return await network_action_callable(self, *args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/graia/application/utilles.py", line 28, in wrapper
+    return await func(self, *args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/graia/application/__init__.py", line 647, in sendGroupMessage
+    response.raise_for_status()
+  File "/usr/local/lib/python3.8/dist-packages/aiohttp/client_reqrep.py", line 1000, in raise_for_status
+    raise ClientResponseError(
+aiohttp.client_exceptions.ClientResponseError: 500, message='Internal Server Error', url=URL('http://localhost:8080/sendGroupMessage')
+
+[2021-02-10 10:32:04] ERROR : Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/graia/broadcast/__init__.py", line 326, in Executor
+    result = await run_always_await_safely(
+  File "/usr/local/lib/python3.8/dist-packages/graia/broadcast/utilles.py", line 20, in run_always_await_safely
+    return await callable(*args, **kwargs)
+  File "/root/bots/niansbot2/plugins/cli.py", line 22, in cli
+    await app.sendGroupMessage(
+  File "/usr/local/lib/python3.8/dist-packages/graia/application/__init__.py", line 67, in wrapped_network_action_callable
+    return await network_action_callable(self, *args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/graia/application/utilles.py", line 28, in wrapper
+    return await func(self, *args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/graia/application/__init__.py", line 647, in sendGroupMessage
+    response.raise_for_status()
+  File "/usr/local/lib/python3.8/dist-packages/aiohttp/client_reqrep.py", line 1000, in raise_for_status
+    raise ClientResponseError(
+aiohttp.client_exceptions.ClientResponseError: 500, message='Internal Server Error', url=URL('http://localhost:8080/sendGroupMessage')
+
+[2021-02-10 10:32:13] ERROR : Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/graia/broadcast/__init__.py", line 326, in Executor
+    result = await run_always_await_safely(
+  File "/usr/local/lib/python3.8/dist-packages/graia/broadcast/utilles.py", line 20, in run_always_await_safely
+    return await callable(*args, **kwargs)
+  File "/root/bots/niansbot2/plugins/cli.py", line 21, in cli
+    res = subprocess.check_output(ctx.asDisplay()[3:],shell=True)
+  File "/usr/lib/python3.8/subprocess.py", line 411, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+  File "/usr/lib/python3.8/subprocess.py", line 512, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command 'python3 qwp.pu' returned non-zero exit status 2.
+
+[2021-02-10 10:32:22] ERROR : Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/graia/broadcast/__init__.py", line 326, in Executor
+    result = await run_always_await_safely(
+  File "/usr/local/lib/python3.8/dist-packages/graia/broadcast/utilles.py", line 20, in run_always_await_safely
+    return await callable(*args, **kwargs)
+  File "/root/bots/niansbot2/plugins/cli.py", line 22, in cli
+    await app.sendGroupMessage(
+  File "/usr/local/lib/python3.8/dist-packages/graia/application/__init__.py", line 67, in wrapped_network_action_callable
+    return await network_action_callable(self, *args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/graia/application/utilles.py", line 28, in wrapper
+    return await func(self, *args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/graia/application/__init__.py", line 647, in sendGroupMessage
+    response.raise_for_status()
+  File "/usr/local/lib/python3.8/dist-packages/aiohttp/client_reqrep.py", line 1000, in raise_for_status
+    raise ClientResponseError(
+aiohttp.client_exceptions.ClientResponseError: 500, message='Internal Server Error', url=URL('http://localhost:8080/sendGroupMessage')
+
+[2021-02-10 10:32:38] ERROR : Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/graia/broadcast/__init__.py", line 326, in Executor
+    result = await run_always_await_safely(
+  File "/usr/local/lib/python3.8/dist-packages/graia/broadcast/utilles.py", line 20, in run_always_await_safely
+    return await callable(*args, **kwargs)
+  File "/root/bots/niansbot2/plugins/cli.py", line 22, in cli
+    await app.sendGroupMessage(
+  File "/usr/local/lib/python3.8/dist-packages/graia/application/__init__.py", line 67, in wrapped_network_action_callable
+    return await network_action_callable(self, *args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/graia/application/utilles.py", line 28, in wrapper
+    return await func(self, *args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/graia/application/__init__.py", line 647, in sendGroupMessage
+    response.raise_for_status()
+  File "/usr/local/lib/python3.8/dist-packages/aiohttp/client_reqrep.py", line 1000, in raise_for_status
+    raise ClientResponseError(
+aiohttp.client_exceptions.ClientResponseError: 500, message='Internal Server Error', url=URL('http://localhost:8080/sendGroupMessage')
+
+[2021-02-10 10:32:50] ERROR : Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/graia/broadcast/__init__.py", line 326, in Executor
+    result = await run_always_await_safely(
+  File "/usr/local/lib/python3.8/dist-packages/graia/broadcast/utilles.py", line 20, in run_always_await_safely
+    return await callable(*args, **kwargs)
+  File "/root/bots/niansbot2/plugins/cli.py", line 22, in cli
+    await app.sendGroupMessage(
+  File "/usr/local/lib/python3.8/dist-packages/graia/application/__init__.py", line 67, in wrapped_network_action_callable
+    return await network_action_callable(self, *args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/graia/application/utilles.py", line 28, in wrapper
+    return await func(self, *args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/graia/application/__init__.py", line 647, in sendGroupMessage
+    response.raise_for_status()
+  File "/usr/local/lib/python3.8/dist-packages/aiohttp/client_reqrep.py", line 1000, in raise_for_status
+    raise ClientResponseError(
+aiohttp.client_exceptions.ClientResponseError: 500, message='Internal Server Error', url=URL('http://localhost:8080/sendGroupMessage')
+
+[2021-02-10 10:33:42] ERROR : Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/graia/broadcast/__init__.py", line 326, in Executor
+    result = await run_always_await_safely(
+  File "/usr/local/lib/python3.8/dist-packages/graia/broadcast/utilles.py", line 20, in run_always_await_safely
+    return await callable(*args, **kwargs)
+  File "/root/bots/niansbot2/plugins/cli.py", line 22, in cli
+    await app.sendGroupMessage(
+  File "/usr/local/lib/python3.8/dist-packages/graia/application/__init__.py", line 67, in wrapped_network_action_callable
+    return await network_action_callable(self, *args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/graia/application/utilles.py", line 28, in wrapper
+    return await func(self, *args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/graia/application/__init__.py", line 647, in sendGroupMessage
+    response.raise_for_status()
+  File "/usr/local/lib/python3.8/dist-packages/aiohttp/client_reqrep.py", line 1000, in raise_for_status
+    raise ClientResponseError(
+aiohttp.client_exceptions.ClientResponseError: 500, message='Internal Server Error', url=URL('http://localhost:8080/sendGroupMessage')
+
+[2021-02-10 10:34:03] ERROR : Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/graia/broadcast/__init__.py", line 326, in Executor
+    result = await run_always_await_safely(
+  File "/usr/local/lib/python3.8/dist-packages/graia/broadcast/utilles.py", line 20, in run_always_await_safely
+    return await callable(*args, **kwargs)
+  File "/root/bots/niansbot2/plugins/cli.py", line 22, in cli
+    await app.sendGroupMessage(
+  File "/usr/local/lib/python3.8/dist-packages/graia/application/__init__.py", line 67, in wrapped_network_action_callable
+    return await network_action_callable(self, *args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/graia/application/utilles.py", line 28, in wrapper
+    return await func(self, *args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/graia/application/__init__.py", line 647, in sendGroupMessage
+    response.raise_for_status()
+  File "/usr/local/lib/python3.8/dist-packages/aiohttp/client_reqrep.py", line 1000, in raise_for_status
+    raise ClientResponseError(
+aiohttp.client_exceptions.ClientResponseError: 500, message='Internal Server Error', url=URL('http://localhost:8080/sendGroupMessage')
+
+[2021-02-10 10:34:09] ERROR : Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/graia/broadcast/__init__.py", line 326, in Executor
+    result = await run_always_await_safely(
+  File "/usr/local/lib/python3.8/dist-packages/graia/broadcast/utilles.py", line 20, in run_always_await_safely
+    return await callable(*args, **kwargs)
+  File "/root/bots/niansbot2/plugins/cli.py", line 22, in cli
+    await app.sendGroupMessage(
+  File "/usr/local/lib/python3.8/dist-packages/graia/application/__init__.py", line 67, in wrapped_network_action_callable
+    return await network_action_callable(self, *args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/graia/application/utilles.py", line 28, in wrapper
+    return await func(self, *args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/graia/application/__init__.py", line 647, in sendGroupMessage
+    response.raise_for_status()
+  File "/usr/local/lib/python3.8/dist-packages/aiohttp/client_reqrep.py", line 1000, in raise_for_status
+    raise ClientResponseError(
+aiohttp.client_exceptions.ClientResponseError: 500, message='Internal Server Error', url=URL('http://localhost:8080/sendGroupMessage')
+
+[2021-02-10 10:34:24] ERROR : Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/graia/broadcast/__init__.py", line 326, in Executor
+    result = await run_always_await_safely(
+  File "/usr/local/lib/python3.8/dist-packages/graia/broadcast/utilles.py", line 20, in run_always_await_safely
+    return await callable(*args, **kwargs)
+  File "/root/bots/niansbot2/plugins/cli.py", line 21, in cli
+    res = subprocess.check_output(ctx.asDisplay()[3:],shell=True)
+  File "/usr/lib/python3.8/subprocess.py", line 411, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+  File "/usr/lib/python3.8/subprocess.py", line 512, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command 'cat requirement.txt' returned non-zero exit status 1.
+
+[2021-02-10 10:46:56] ERROR : Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/graia/broadcast/__init__.py", line 326, in Executor
+    result = await run_always_await_safely(
+  File "/usr/local/lib/python3.8/dist-packages/graia/broadcast/utilles.py", line 20, in run_always_await_safely
+    return await callable(*args, **kwargs)
+  File "/root/bots/niansbot2/plugins/cli.py", line 25, in cli
+    Plain(
+  File "/usr/local/lib/python3.8/dist-packages/graia/application/message/elements/internal.py", line 31, in __init__
+    super().__init__(text=text)
+  File "pydantic/main.py", line 362, in pydantic.main.BaseModel.__init__
+pydantic.error_wrappers.ValidationError: 1 validation error for Plain
+text
+  'utf-8' codec can't decode byte 0xff in position 0: invalid start byte (type=value_error.unicodedecode)
+
+[2021-02-10 10:47:08] ERROR : Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/graia/broadcast/__init__.py", line 326, in Executor
+    result = await run_always_await_safely(
+  File "/usr/local/lib/python3.8/dist-packages/graia/broadcast/utilles.py", line 20, in run_always_await_safely
+    return await callable(*args, **kwargs)
+  File "/root/bots/niansbot2/plugins/cli.py", line 25, in cli
+    Plain(
+  File "/usr/local/lib/python3.8/dist-packages/graia/application/message/elements/internal.py", line 31, in __init__
+    super().__init__(text=text)
+  File "pydantic/main.py", line 362, in pydantic.main.BaseModel.__init__
+pydantic.error_wrappers.ValidationError: 1 validation error for Plain
+text
+  'utf-8' codec can't decode byte 0xff in position 0: invalid start byte (type=value_error.unicodedecode)
+
+[2021-02-10 10:48:25] ERROR : Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/graia/broadcast/__init__.py", line 326, in Executor
+    result = await run_always_await_safely(
+  File "/usr/local/lib/python3.8/dist-packages/graia/broadcast/utilles.py", line 20, in run_always_await_safely
+    return await callable(*args, **kwargs)
+  File "/root/bots/niansbot2/plugins/cli.py", line 21, in cli
+    res = subprocess.check_output(ctx.asDisplay()[3:],shell=True)
+  File "/usr/lib/python3.8/subprocess.py", line 411, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+  File "/usr/lib/python3.8/subprocess.py", line 512, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command 'php qwq.php' returned non-zero exit status 127.
+
+[2021-02-10 10:52:19] ERROR : Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/graia/broadcast/__init__.py", line 326, in Executor
+    result = await run_always_await_safely(
+  File "/usr/local/lib/python3.8/dist-packages/graia/broadcast/utilles.py", line 20, in run_always_await_safely
+    return await callable(*args, **kwargs)
+  File "/root/bots/niansbot2/plugins/cli.py", line 22, in cli
+    await app.sendGroupMessage(
+  File "/usr/local/lib/python3.8/dist-packages/graia/application/__init__.py", line 67, in wrapped_network_action_callable
+    return await network_action_callable(self, *args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/graia/application/utilles.py", line 28, in wrapper
+    return await func(self, *args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/graia/application/__init__.py", line 647, in sendGroupMessage
+    response.raise_for_status()
+  File "/usr/local/lib/python3.8/dist-packages/aiohttp/client_reqrep.py", line 1000, in raise_for_status
+    raise ClientResponseError(
+aiohttp.client_exceptions.ClientResponseError: 500, message='Internal Server Error', url=URL('http://localhost:8080/sendGroupMessage')
+
+[2021-02-10 10:56:15] ERROR : Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/graia/broadcast/__init__.py", line 326, in Executor
+    result = await run_always_await_safely(
+  File "/usr/local/lib/python3.8/dist-packages/graia/broadcast/utilles.py", line 20, in run_always_await_safely
+    return await callable(*args, **kwargs)
+  File "/root/bots/niansbot2/plugins/cli.py", line 22, in cli
+    await app.sendGroupMessage(
+  File "/usr/local/lib/python3.8/dist-packages/graia/application/__init__.py", line 67, in wrapped_network_action_callable
+    return await network_action_callable(self, *args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/graia/application/utilles.py", line 28, in wrapper
+    return await func(self, *args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/graia/application/__init__.py", line 647, in sendGroupMessage
+    response.raise_for_status()
+  File "/usr/local/lib/python3.8/dist-packages/aiohttp/client_reqrep.py", line 1000, in raise_for_status
+    raise ClientResponseError(
+aiohttp.client_exceptions.ClientResponseError: 500, message='Internal Server Error', url=URL('http://localhost:8080/sendGroupMessage')
+
+[2021-02-10 10:56:23] ERROR : Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/graia/broadcast/__init__.py", line 326, in Executor
+    result = await run_always_await_safely(
+  File "/usr/local/lib/python3.8/dist-packages/graia/broadcast/utilles.py", line 20, in run_always_await_safely
+    return await callable(*args, **kwargs)
+  File "/root/bots/niansbot2/plugins/cli.py", line 21, in cli
+    res = subprocess.check_output(ctx.asDisplay()[3:],shell=True)
+  File "/usr/lib/python3.8/subprocess.py", line 411, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+  File "/usr/lib/python3.8/subprocess.py", line 512, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command 'dotnet' returned non-zero exit status 129.
+
+[2021-02-10 10:58:29] ERROR : Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/graia/broadcast/__init__.py", line 326, in Executor
+    result = await run_always_await_safely(
+  File "/usr/local/lib/python3.8/dist-packages/graia/broadcast/utilles.py", line 20, in run_always_await_safely
+    return await callable(*args, **kwargs)
+  File "/root/bots/niansbot2/plugins/cli.py", line 22, in cli
+    await app.sendGroupMessage(
+  File "/usr/local/lib/python3.8/dist-packages/graia/application/__init__.py", line 67, in wrapped_network_action_callable
+    return await network_action_callable(self, *args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/graia/application/utilles.py", line 28, in wrapper
+    return await func(self, *args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/graia/application/__init__.py", line 647, in sendGroupMessage
+    response.raise_for_status()
+  File "/usr/local/lib/python3.8/dist-packages/aiohttp/client_reqrep.py", line 1000, in raise_for_status
+    raise ClientResponseError(
+aiohttp.client_exceptions.ClientResponseError: 500, message='Internal Server Error', url=URL('http://localhost:8080/sendGroupMessage')
+
+[2021-02-10 11:03:07] ERROR : Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/graia/broadcast/__init__.py", line 326, in Executor
+    result = await run_always_await_safely(
+  File "/usr/local/lib/python3.8/dist-packages/graia/broadcast/utilles.py", line 20, in run_always_await_safely
+    return await callable(*args, **kwargs)
+  File "/root/bots/niansbot2/plugins/cli.py", line 21, in cli
+    res = subprocess.check_output(ctx.asDisplay()[3:],shell=True)
+  File "/usr/lib/python3.8/subprocess.py", line 411, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+  File "/usr/lib/python3.8/subprocess.py", line 512, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command 'java nb' returned non-zero exit status 1.
+
+[2021-02-10 11:19:57] ERROR : Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/graia/broadcast/__init__.py", line 326, in Executor
+    result = await run_always_await_safely(
+  File "/usr/local/lib/python3.8/dist-packages/graia/broadcast/utilles.py", line 20, in run_always_await_safely
+    return await callable(*args, **kwargs)
+  File "/root/bots/niansbot2/plugins/cli.py", line 10, in cli
+    res = subprocess.getoutput(f"python3 plugins/CLI.py {ctx.asDisplay()[5:]}",shell=True).decode("utf-8")
+TypeError: getoutput() got an unexpected keyword argument 'shell'
+
+[2021-02-10 11:20:45] ERROR : Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/graia/broadcast/__init__.py", line 326, in Executor
+    result = await run_always_await_safely(
+  File "/usr/local/lib/python3.8/dist-packages/graia/broadcast/utilles.py", line 20, in run_always_await_safely
+    return await callable(*args, **kwargs)
+  File "/root/bots/niansbot2/plugins/cli.py", line 10, in cli
+    res = subprocess.getoutput(f"python3 plugins/CLI.py {ctx.asDisplay()[5:]}").decode("utf-8")
+AttributeError: 'str' object has no attribute 'decode'
+
+[2021-02-10 11:36:05] ERROR : Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/graia/broadcast/__init__.py", line 326, in Executor
+    result = await run_always_await_safely(
+  File "/usr/local/lib/python3.8/dist-packages/graia/broadcast/utilles.py", line 20, in run_always_await_safely
+    return await callable(*args, **kwargs)
+  File "/root/bots/niansbot2/plugins/cli.py", line 22, in cli
+    await app.sendGroupMessage(
+  File "/usr/local/lib/python3.8/dist-packages/graia/application/__init__.py", line 67, in wrapped_network_action_callable
+    return await network_action_callable(self, *args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/graia/application/utilles.py", line 28, in wrapper
+    return await func(self, *args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/graia/application/__init__.py", line 634, in sendGroupMessage
+    async with self.session.post(
+  File "/usr/local/lib/python3.8/dist-packages/aiohttp/client.py", line 1117, in __aenter__
+    self._resp = await self._coro
+  File "/usr/local/lib/python3.8/dist-packages/aiohttp/client.py", line 544, in _request
+    await resp.start(conn)
+  File "/usr/local/lib/python3.8/dist-packages/aiohttp/client_reqrep.py", line 890, in start
+    message, payload = await self._protocol.read()  # type: ignore
+  File "/usr/local/lib/python3.8/dist-packages/aiohttp/streams.py", line 604, in read
+    await self._waiter
+aiohttp.client_exceptions.ServerDisconnectedError: Server disconnected
+
+[2021-02-10 11:44:47] ERROR : Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/graia/broadcast/__init__.py", line 326, in Executor
+    result = await run_always_await_safely(
+  File "/usr/local/lib/python3.8/dist-packages/graia/broadcast/utilles.py", line 20, in run_always_await_safely
+    return await callable(*args, **kwargs)
+  File "/root/bots/niansbot2/plugins/cli.py", line 22, in cli
+    await app.sendGroupMessage(
+  File "/usr/local/lib/python3.8/dist-packages/graia/application/__init__.py", line 67, in wrapped_network_action_callable
+    return await network_action_callable(self, *args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/graia/application/utilles.py", line 28, in wrapper
+    return await func(self, *args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/graia/application/__init__.py", line 647, in sendGroupMessage
+    response.raise_for_status()
+  File "/usr/local/lib/python3.8/dist-packages/aiohttp/client_reqrep.py", line 1000, in raise_for_status
+    raise ClientResponseError(
+aiohttp.client_exceptions.ClientResponseError: 500, message='Internal Server Error', url=URL('http://localhost:8080/sendGroupMessage')
+
+[2021-02-10 12:09:04] ERROR : Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/graia/broadcast/__init__.py", line 326, in Executor
+    result = await run_always_await_safely(
+  File "/usr/local/lib/python3.8/dist-packages/graia/broadcast/utilles.py", line 20, in run_always_await_safely
+    return await callable(*args, **kwargs)
+  File "/root/bots/niansbot2/plugins/cli.py", line 22, in cli
+    await app.sendGroupMessage(
+  File "/usr/local/lib/python3.8/dist-packages/graia/application/__init__.py", line 67, in wrapped_network_action_callable
+    return await network_action_callable(self, *args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/graia/application/utilles.py", line 28, in wrapper
+    return await func(self, *args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/graia/application/__init__.py", line 647, in sendGroupMessage
+    response.raise_for_status()
+  File "/usr/local/lib/python3.8/dist-packages/aiohttp/client_reqrep.py", line 1000, in raise_for_status
+    raise ClientResponseError(
+aiohttp.client_exceptions.ClientResponseError: 500, message='Internal Server Error', url=URL('http://localhost:8080/sendGroupMessage')
+
+[2021-02-10 12:43:49] ERROR : Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/graia/broadcast/__init__.py", line 326, in Executor
+    result = await run_always_await_safely(
+  File "/usr/local/lib/python3.8/dist-packages/graia/broadcast/utilles.py", line 20, in run_always_await_safely
+    return await callable(*args, **kwargs)
+  File "/root/bots/niansbot2/plugins/rua.py", line 27, in rua
+    qid = msg.get(At)[0].target
+IndexError: list index out of range
+
+[2021-02-10 12:49:09] ERROR : Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/graia/broadcast/__init__.py", line 326, in Executor
+    result = await run_always_await_safely(
+  File "/usr/local/lib/python3.8/dist-packages/graia/broadcast/utilles.py", line 20, in run_always_await_safely
+    return await callable(*args, **kwargs)
+  File "/root/bots/niansbot2/plugins/cli.py", line 22, in cli
+    await app.sendGroupMessage(
+  File "/usr/local/lib/python3.8/dist-packages/graia/application/__init__.py", line 67, in wrapped_network_action_callable
+    return await network_action_callable(self, *args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/graia/application/utilles.py", line 28, in wrapper
+    return await func(self, *args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/graia/application/__init__.py", line 647, in sendGroupMessage
+    response.raise_for_status()
+  File "/usr/local/lib/python3.8/dist-packages/aiohttp/client_reqrep.py", line 1000, in raise_for_status
+    raise ClientResponseError(
+aiohttp.client_exceptions.ClientResponseError: 500, message='Internal Server Error', url=URL('http://localhost:8080/sendGroupMessage')
+
+[2021-02-10 12:50:26] ERROR : Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/graia/broadcast/__init__.py", line 326, in Executor
+    result = await run_always_await_safely(
+  File "/usr/local/lib/python3.8/dist-packages/graia/broadcast/utilles.py", line 20, in run_always_await_safely
+    return await callable(*args, **kwargs)
+  File "/root/bots/niansbot2/plugins/cli.py", line 22, in cli
+    await app.sendGroupMessage(
+  File "/usr/local/lib/python3.8/dist-packages/graia/application/__init__.py", line 67, in wrapped_network_action_callable
+    return await network_action_callable(self, *args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/graia/application/utilles.py", line 28, in wrapper
+    return await func(self, *args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/graia/application/__init__.py", line 647, in sendGroupMessage
+    response.raise_for_status()
+  File "/usr/local/lib/python3.8/dist-packages/aiohttp/client_reqrep.py", line 1000, in raise_for_status
+    raise ClientResponseError(
+aiohttp.client_exceptions.ClientResponseError: 500, message='Internal Server Error', url=URL('http://localhost:8080/sendGroupMessage')
+
