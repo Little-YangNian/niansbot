@@ -1444,3 +1444,20 @@ aiohttp.client_exceptions.ClientResponseError: 500, message='Internal Server Err
     raise ClientResponseError(
 aiohttp.client_exceptions.ClientResponseError: 500, message='Internal Server Error', url=URL('http://localhost:8080/sendGroupMessage')
 
+[2021-02-10 12:56:09] ERROR : Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/graia/broadcast/__init__.py", line 326, in Executor
+    result = await run_always_await_safely(
+  File "/usr/local/lib/python3.8/dist-packages/graia/broadcast/utilles.py", line 20, in run_always_await_safely
+    return await callable(*args, **kwargs)
+  File "/root/bots/niansbot2/plugins/cli.py", line 22, in cli
+    await app.sendGroupMessage(
+  File "/usr/local/lib/python3.8/dist-packages/graia/application/__init__.py", line 67, in wrapped_network_action_callable
+    return await network_action_callable(self, *args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/graia/application/utilles.py", line 28, in wrapper
+    return await func(self, *args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/graia/application/__init__.py", line 647, in sendGroupMessage
+    response.raise_for_status()
+  File "/usr/local/lib/python3.8/dist-packages/aiohttp/client_reqrep.py", line 1000, in raise_for_status
+    raise ClientResponseError(
+aiohttp.client_exceptions.ClientResponseError: 500, message='Internal Server Error', url=URL('http://localhost:8080/sendGroupMessage')
+
