@@ -26,7 +26,7 @@ async def nbnhhsh(message: MessageChain, app: GraiaMiraiApplication, group: Grou
 
 async def guess(text: str) -> str:
     client = aiosonic.HTTPClient()
-    resp = await client.post('https://lab.magiconch.com/api/nbnhhsh/guess', data={'text': str(text)})
+    resp = await client.post(url='https://lab.magiconch.com/api/nbnhhsh/guess', json={'text': str(text)})
     tran = ""
     try:
         trans = json.loads(await resp.content())[0]['trans']
