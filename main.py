@@ -24,11 +24,13 @@ app = GraiaMiraiApplication(
 )
 
 with saya.module_context():
-    saya.require("Sayas.nbnhhsh")
-    saya.require('Sayas.talk')
-    saya.require('Sayas.rua')
-    saya.require('Sayas.baidu')
-
+    saya.require("mods.nbnhhsh")
+    saya.require('mods.talk')
+    saya.require('mods.rua')
+    saya.require('mods.baidu')
+    saya.require('mods.comment')
+#    saya.require("Sayas.cli")
+#    saya.require('Sayas.webimg')
 
 @bcc.receiver("GroupMessage")
 async def friend_message_listener(app: GraiaMiraiApplication, member: Member, msg: MessageChain, group: Group):
