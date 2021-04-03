@@ -24,11 +24,11 @@ app = GraiaMiraiApplication(
 )
 
 with saya.module_context():
-    saya.require("mods.nbnhhsh")
-    saya.require('mods.talk')
-    saya.require('mods.rua')
-    saya.require('mods.baidu')
-    saya.require('mods.comment')
+    saya.require("saya.nbnhhsh")
+    saya.require('saya.talk')
+    saya.require('saya.rua')
+    saya.require('saya.baidu')
+    saya.require('saya.comment')
 #    saya.require("Sayas.cli")
 #    saya.require('Sayas.webimg')
 
