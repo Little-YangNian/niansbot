@@ -1,7 +1,7 @@
 from io import BytesIO
 from os import path
 from PIL import Image as im
-from mods.rua_data.data_source import generate_gif
+from saya.rua_data.data_source import generate_gif
 import aiohttp
 
 import os

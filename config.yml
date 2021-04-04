@@ -1,0 +1,4 @@
+host: "http://localhost:8080"  # 填 入  httpapi 服 务 运 行 的 地 址
+authKey: "qaq1940QAQ"  # 填 入  authKey                        
+account: 1063247201  # 你 的 机 器 人 的  qq 号                     
+websocket: True

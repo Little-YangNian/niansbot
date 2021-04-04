@@ -5,7 +5,7 @@ async-timeout==3.0.1
 attrs==20.3.0
 chardet==4.0.0
 croniter==0.3.37
-graia-application-mirai==0.18.0
+graia-application-mirai==0.18.3
 graia-broadcast==0.8.7
 graia-saya==0.0.8
 h2==4.0.0
