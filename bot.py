@@ -13,8 +13,8 @@ bcc = Broadcast(loop=loop)
 saya = Saya(bcc)
 saya.install_behaviours(BroadcastBehaviour(bcc))
 with saya.module_context():
-    saya.require("saya.cli")
-    saya.require('saya.rua')
+    saya.require("saya_modules.linnian.rua")
+    # saya.require('saya.rua')
 app = GraiaMiraiApplication(
     broadcast=bcc,
     connect_info=yaml_to_session()
