@@ -15,7 +15,7 @@ from graia.application.event.messages import GroupMessage, Group
 from graia.application.message.parser.kanata import Kanata
 from graia.application.message.parser.signature import RegexMatch
 
-from utils import messagechain_to_img
+from ..kawaii_utils import messagechain_to_img
 
 # 插件信息
 __name__ = "SteamGameSearcher"

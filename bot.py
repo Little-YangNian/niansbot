@@ -12,10 +12,10 @@ saya.install_behaviours(BroadcastBehaviour(bcc))
 with saya.module_context():
     saya.require("saya_modules.linnian.rua")
     saya.require("saya_modules.linnian.fuck")
-    saya.require("modules.SteamGameSearcher")
-    saya.require("modules.NetworkCompiler")
+    saya.require("saya_modules.kawaii.SteamGameSearcher")
+    saya.require("saya_modules.kawaii.NetworkCompiler")
     # saya.require('saya.rua')
-    saya.require("modules.GroupWordCloudGenerator")
+    saya.require("saya_modules.kawaii.GroupWordCloudGenerator")
 #    saya.require("modules.GithubHotSearch")
 
 
